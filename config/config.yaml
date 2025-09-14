@@ -1,0 +1,11 @@
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://emna-text-summarization-model.s3.us-east-1.amazonaws.com/summarizer-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip   # <-- required
+  unzip_dir: artifacts/data_ingestion
+
+
+
