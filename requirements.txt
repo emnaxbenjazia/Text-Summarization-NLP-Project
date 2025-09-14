@@ -1,0 +1,62 @@
+# Hugging Face Transformers library (models, tokenizers, pipelines)
+transformers
+
+# Adds SentencePiece tokenizer support (needed for models like T5, mBART)
+transformers[sentencepiece]
+
+# Hugging Face Datasets library (loading, preprocessing, splitting datasets)
+datasets
+
+# BLEU evaluation metric implementation (machine translation / summarization quality)
+sacrebleu 
+
+# ROUGE evaluation metric implementation (summarization quality)
+rouge_score 
+
+# 7-zip archive extraction support (some datasets/models come compressed)
+py7zr
+
+# Data manipulation and analysis (tabular dataframes, preprocessing)
+pandas
+
+# Natural Language Toolkit (tokenization, stopwords, text processing)
+nltk
+
+# Progress bars for loops (clean visual feedback in training/eval)
+tqdm
+
+# Read/write YAML config files (experiment parameters, pipelines)
+PyYAML
+
+# Visualization library (plotting training curves, results)
+matplotlib
+
+# PyTorch deep learning framework (training and running Transformer models)
+torch
+
+# Jupyter Notebook support (run tutorials interactively)
+notebook
+
+# AWS SDK for Python (used to upload/download data/models from S3)
+boto3
+
+# Type stubs for boto3 S3 module (static typing support for boto3 S3)
+mypy-boto3-s3
+
+# Utility for dot-accessible Python dicts (nice config handling)
+python-box==6.0.2
+
+# Lightweight assertions / validation library
+ensure==1.0.2
+
+# FastAPI web framework (deploy model as an API)
+fastapi==0.78.0
+
+# ASGI server to run FastAPI apps
+uvicorn==0.18.3
+
+# Template engine (rendering HTML if you make a web UI for the API)
+Jinja2==3.1.2
+
+# Install the current package in editable/development mode
+-e .
